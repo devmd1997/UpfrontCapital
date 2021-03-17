@@ -16,6 +16,11 @@
 		8E5FEF2325F6D91D00745DF3 /* UpfrontCaptialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FEF2225F6D91D00745DF3 /* UpfrontCaptialTests.swift */; };
 		8E5FEF2E25F6D91D00745DF3 /* UpfrontCaptialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FEF2D25F6D91D00745DF3 /* UpfrontCaptialUITests.swift */; };
 		8E5FEF4425F6D95D00745DF3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FEF4325F6D95D00745DF3 /* LoginView.swift */; };
+		8E61B27A26017C7700889D17 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61B27926017C7700889D17 /* LoginButton.swift */; };
+		8E61B27F260182C800889D17 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E61B27E260182C800889D17 /* OnboardingView.swift */; };
+		8E796714260173810011481B /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E796713260173810011481B /* Extenstions.swift */; };
+		8E796721260175190011481B /* LoginTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E796720260175190011481B /* LoginTextView.swift */; };
+		8E7967262601789F0011481B /* PasswordTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7967252601789E0011481B /* PasswordTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		8E5FEF2D25F6D91D00745DF3 /* UpfrontCaptialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpfrontCaptialUITests.swift; sourceTree = "<group>"; };
 		8E5FEF2F25F6D91D00745DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E5FEF4325F6D95D00745DF3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8E61B27926017C7700889D17 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		8E61B27E260182C800889D17 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8E796713260173810011481B /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		8E796720260175190011481B /* LoginTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextView.swift; sourceTree = "<group>"; };
+		8E7967252601789E0011481B /* PasswordTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,10 @@
 		8E5FEF3E25F6D93F00745DF3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8E796713260173810011481B /* Extenstions.swift */,
+				8E796720260175190011481B /* LoginTextView.swift */,
+				8E7967252601789E0011481B /* PasswordTextView.swift */,
+				8E61B27926017C7700889D17 /* LoginButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +165,7 @@
 				8E5FEF0B25F6D91700745DF3 /* UpfrontCaptialApp.swift */,
 				8E5FEF0D25F6D91700745DF3 /* ContentView.swift */,
 				8E5FEF4325F6D95D00745DF3 /* LoginView.swift */,
+				8E61B27E260182C800889D17 /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -284,10 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E796721260175190011481B /* LoginTextView.swift in Sources */,
+				8E61B27A26017C7700889D17 /* LoginButton.swift in Sources */,
+				8E61B27F260182C800889D17 /* OnboardingView.swift in Sources */,
 				8E5FEF1525F6D91D00745DF3 /* Persistence.swift in Sources */,
 				8E5FEF0E25F6D91700745DF3 /* ContentView.swift in Sources */,
 				8E5FEF0C25F6D91700745DF3 /* UpfrontCaptialApp.swift in Sources */,
+				8E7967262601789F0011481B /* PasswordTextView.swift in Sources */,
 				8E5FEF4425F6D95D00745DF3 /* LoginView.swift in Sources */,
+				8E796714260173810011481B /* Extenstions.swift in Sources */,
 				8E5FEF1825F6D91D00745DF3 /* UpfrontCaptial.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
